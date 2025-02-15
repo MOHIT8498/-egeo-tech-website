@@ -223,14 +223,24 @@ eGeo Tech Private Limited is a leading service-oriented company specializing in 
 
    		<div class="col-twelve">
 
-            <!-- form -->
-            <form id="contactform" action="//https://formspree.io/f/mbldzkrd" method="POST">
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mbldzkrd"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
-      <input type="text" name="name" placeholder="Name">
-      <input type="email" name="_replyto" placeholder="Mail">
-      <textarea name="message" placeholder="Message"></textarea>
-      <input type="submit" value="Submit">
-  </form>
+
  						    <!-- Form End -->
 
             <!-- contact-warning -->
